@@ -1,0 +1,15 @@
+temperature: 
+  fan_on: 40000                         # 指定温度 40°
+
+time:
+  begin_hour: 22                        # 风扇停转开始时间
+  end_hour: 9                           # 风扇停转终止时间
+  min: 30
+  inter_second: 600                     # 间隔时间
+
+pid:
+  period_ms: 100                        # 周期
+  Kp: 0.01                              # pid参数
+
+Wiring:
+  wPi: 3
